@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi_primer_tabla</title>
+</head>
+
+<body>
+    <h1>Canciones que rondan my head</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Autor</th>
+                <th>Año de descubrimiento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!--tr = table row, agrupa elementos en una columna-->
+                <td>Cold Feet</td>
+                <!--td = table data, agrupa datos en una celda-->
+                <td>Fink</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Life goes on</td>
+                <td>Oliver Tree</td>
+                <td>2021</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <H2>Segunda misma tabla pero con spans</H2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Nombre</th>
+                <th rowspan="2">Autor</th>
+                <th colspan="2">Años</th>
+            </tr>
+            <tr>
+                <th>Año de descubrimiento</th>
+                <th>Año de lanzamiento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!--tr = table row, agrupa elementos en una columna-->
+                <td>Cold Feet</td>
+                <!--td = table data, agrupa datos en una celda-->
+                <td>Fink</td>
+                <td>2021</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>Life goes on</td>
+                <td>Oliver Tree</td>
+                <td>2021</td>
+                <td>2020</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
